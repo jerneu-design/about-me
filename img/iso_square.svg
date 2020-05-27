@@ -1,0 +1,36 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0.4;
+      }
+
+      .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #fc9;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <polygon class="cls-1" points="111.48 540.01 957.24 48.51 1808.52 539.99 962.76 1031.49 111.48 540.01"/>
+    </clipPath>
+  </defs>
+  <title>Untitled-1</title>
+  <g class="cls-2">
+    <g class="cls-3">
+      <g class="cls-4">
+        <polyline class="cls-5" points="1808.52 539.99 957.24 48.51 111.48 540.01 962.76 1031.49 1808.52 539.99"/>
+      </g>
+    </g>
+  </g>
+</svg>

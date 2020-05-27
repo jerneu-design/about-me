@@ -1,0 +1,10 @@
+.iso-background {
+    background-color: yellow;
+    background: url(../img/iso_square.svg);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right;
+ 
+}       
