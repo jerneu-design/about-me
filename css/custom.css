@@ -15,7 +15,14 @@
     border-bottom-color:
     rgba(255, 204, 153, 0.40); 
 }
-    
+a :hover {
+  color: black;
+  border-bottom-width: 0.25em;
+  border-bottom-style: solid;
+  border-bottom-color:
+  rgba(255, 204, 153, 0.40); 
+  
+}   
     
   ul {
     list-style-type: none; 
