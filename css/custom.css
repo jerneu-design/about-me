@@ -1,29 +1,44 @@
-.iso-background {
+/* .iso-background {
     background-color: yellow;
-    background: url(../img/iso_square.svg);
-    
+    background: url(../img/iso_square.svg);   
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
  
-}       
- a {
-    color: black;
+}        */
+
+
+.bg-dark {
+  background-color: #000000 !important; }
+
+ a {      
     border-bottom-width: 0.25em;
     border-bottom-style: solid;
-    border-bottom-color:
-    rgba(255, 204, 153, 0.40); 
-}
-a :hover {
-  color: black;
-  border-bottom-width: 0.25em;
-  border-bottom-style: solid;
-  border-bottom-color:
-  rgba(255, 204, 153, 0.40); 
-  
-}   
+    border-bottom-color: rgba(255, 204, 153);     
+    background-color: transparent; }
+  a:hover {
     
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 204, 153);     
+    background-color: transparent; }
+
+
   ul {
     list-style-type: none; 
 }
+
+.text-light {
+  color: #f8f9fa !important; }
+
+a.text-light:hover, a.text-light:focus {
+  color: #cbd3da !important; }
+
+
+
+/* body  {
+
+ background-image: linear-gradient(to top, #051937, #005169, #408d8c, #98c8a5, #ffffca);
+  
+} */
+
