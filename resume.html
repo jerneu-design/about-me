@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jeremy Neumann UX Developer | Graphic Designer</title>
+    <meta name="description" content="About Me Page Jeremy Neumann"/>
+    <!--Google font-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet"> -->
+</head>
+<body class="bg-dark text-light border"></body>
+<section class="pb-6">
+    <div class="container">
+        <div class="row">
+            <div class="">
+                <div class="">
+                </div>
+                <div id="adobe-dc-view" style="width: 800px;"></div>
+                <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+                <script type="text/javascript">
+                    document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+                        var adobeDCView = 
+                        new AdobeDC.View({clientId: "<85a6f27b52b24ea6b8d42a6b03214303>", divId: "adobe-dc-view"});
+                        adobeDCView.previewFile({
+                            content:{promise: "<FILE_BLOB_PROMISE>"},
+                            metaData:{fileName: "<FILE_NAME>"}
+                        }, {embedMode: "IN_LINE"});
+                    });
+                </script>
+                <button type="button" onclick="previewFile()" style="cursor: pointer; width: 120px; padding: 10px; font-family: 'Arial'; font-size: 15px; color: #ededed; border-radius: 5px; border: 1px #404040; background-color:#1473e6; margin: 100px 0 0 80px;">View PDF</button>
+                <script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="py-5 bg-dark text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://www.jeremy-neumann.com">Design Portfolio</a></li>
+                    <li class="list-inline-item"><a href="https://www.twitter.com/jerneu">Twitter</a></li>
+                    <li class="list-inline-item"><a href="https://github.com/buzlink/">Student Portfolio Backup</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row my-2">
+            <div class="col-md-4 mx-auto text-muted text-center small-xl">
+                &copy; 2020 Jeremy Neumann
+            </div>
+        </div>
+    </div>
+</footer>
+
+</bodh>
+</html>

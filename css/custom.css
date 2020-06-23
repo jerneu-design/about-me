@@ -1,13 +1,28 @@
-/* .iso-background {
-    background-color: yellow;
-    background: url(../img/iso_square.svg);   
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: right;
- 
-}        */
 
+html {
+  line-height: 1.15;
+
+}
+
+body {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  
+}
+
+.reduce-type {
+  font-size: 1rem;
+}
+
+
+.border {
+  border: 1rem solid #1E0FF5 !important; }
+
+.lead {
+  font-weight: 600;
+}
 
 .bg-dark {
   background-color: #000000 !important; }
