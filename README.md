@@ -5,16 +5,16 @@ An About Me page I created utilizing HTML and Bootstrap.
 The page is viewable [here.](https://jerneu-design.github.io/about-me/)
 
 
-# Built With
+## Built With
 * HTML
 * Bootstrap
 
-# Screenshots
+## Screenshots
 
-# To Do
+## To Do
 *
 
-# Credits
+## Credits
 
 
 
