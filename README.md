@@ -1,4 +1,9 @@
 # about-me
  
-# About Me Page setup using HTML and Bootstrap
+An About Me Page I created utilizing HTML and Bootstrap. 
+
+The page is viewable [here.](https://jerneu-design.github.io/about-me/)
+
+** To Do **
+* 
 
