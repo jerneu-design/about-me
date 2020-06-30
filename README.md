@@ -1,6 +1,6 @@
 # about-me
  
-An About Me Page I created utilizing HTML and Bootstrap. 
+An About Me page I created utilizing HTML and Bootstrap. 
 
 The page is viewable [here.](https://jerneu-design.github.io/about-me/)
 
